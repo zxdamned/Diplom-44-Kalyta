@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>shelter</title>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">    
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel ="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn,jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel = "stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>    
+<nav class="navbar">
+<h1 class="logo"><img src="logo.png" height="100"></h1>
+<ul class="nav-links">
+<li><a href ="#main">Головна</a></li>
+<li><a href ="#function">Діяльність</a></li>
+<li><a href ="#slider">Допомога тваринам</a></li>
+<li><a href ="#contact">Контакти</a></li>
+
+</ul>
+</nav>
+</header>
+<section class="main" id="main">
+<div class="content">
+
+</div>
+</section>
+<section class="function" id="function">
+<div class="funcon">
+<p><b>Діяльність фонду</b></p>
+
+<div class="wrapper">
+    
+    <div class="conatiner">
+        
+        <div class="box">
+            <a href="https://happypaw.ua/ua" target="_blanc">
+            <img src="Screenshot_1.png" alt="" width="250"></a>
+            
+        </div>
+        <div class="box">
+            <a href="https://happypaw.ua/ua" target="_blanc">
+            <img src="Screenshot_2.png" alt="" width="250"></a>
+            
+        </div>
+        <div class="box">
+            <a href="https://happypaw.ua/ua" target="_blanc">
+            <img src="Screenshot_3.png" alt="" width="250"></a>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+
+<section class="function" id="function">
+    <div class="funcon">
+<p ><b>Допомога тваринам</b></p>
+</div>
+</section>
+<section class="slider" id="slider">
+<div class="slider">
+<div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <div class="slide first">
+            <img src="Screenshot_4.png" style="width:100%" alt=" ">
+        </div>
+        <div class="slide">
+            <img src="Screenshot_5.png" style="width:100%" alt=" ">
+        </div>
+        <div class="slide">
+            <img src="Screenshot_6.png" style="width:100%" alt=" ">
+        </div>
+        <div class="slide">
+            <img src="Screenshot_7.png" style="width:100%" alt=" ">
+        </div>
+
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+
+</div>
+<div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+</div>
+
+</div>  
+
+
+</section>
+<section class="contact" id="contact">
+<div class="contain">
+<form action="https://formspree.io/f/mjvdnevk" method="POST" />
+
+     <div class="Message-icon">
+        <i class="bi bi-telegram"></i>
+        <span>Зв'язок з нами</span>
+     </div>
+     <div id="input-field">
+        <i class="bi bi-person"></i>
+        <input type="text"  name="firstName" placeholder="Прізвище та ім'я">
+     </div>
+     <div id="input-field">
+        <i class="bi bi-telephone"></i>
+        <input type="text"  name="subject" placeholder="Телефон">
+     </div>
+     <div id="input-field">
+        <i class="bi bi-envelope"></i>
+        <input type="email"  name="email"placeholder="Email">
+     </div>
+     <div id="input-field">
+        <i class="bi bi-chat-right-dots"></i>
+        <textarea name="msg"  placeholder="Повідомлення"  cols="30" rows="10"></textarea>
+     </div>
+     <input type="submit" value="Підтвердження"class="send-btns">
+
+
+<footer>
+     <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/HappyPawFund/?fref=ts"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/happy_paw"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Happypaw_fund"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://currents.google.com/up"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="https://www.youtube.com/@happypaw4595"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        
+        
+     </div>
+     <div class="footerBottom">
+        <p>Copyright &copy; 2024; Design by <span class="designer">Kalita</span></p><br>
+        <small>Інфомрація взята з https://happypaw.ua/ua</small>
+    </div>
+    </footer>
+</div>
+
+</section>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>  
+  
+</body>
+
+
+</html>
